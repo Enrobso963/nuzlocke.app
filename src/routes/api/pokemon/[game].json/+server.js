@@ -1,10 +1,13 @@
 import { Expanded as games } from '$lib/data/games.js'
 import patches from '$lib/data/patches.json'
+import routeData from '$lib/data/routes.json'
 
 import { LegacyTypeMap } from '$lib/data/legacy'
 import Pokemon, { filterdata, sumObj } from '../../pokemon.json/_data.js'
 
 const base = filterdata(Pokemon)
+const baseLookup = Object.fromEntries(base.map((p) => [p.alias, p]))
+const unique = (items = []) => [...new Set(items.filter(Boolean))]
 
 const patchTypes = (pkmn, typeMap) => {
   if (!typeMap) return pkmn
@@ -31,6 +34,7 @@ const patchPokemon = (pkmn, patches = {}, fakemon = {}) => {
         types: patch.types || p.types,
         evos: patch?.evos || p.evos,
         evoline: patch?.evoline || p.evoline,
+        canEncounter: patch.canEncounter ?? p.canEncounter,
         baseStats,
         total
       }
@@ -38,10 +42,105 @@ const patchPokemon = (pkmn, patches = {}, fakemon = {}) => {
     .concat(Object.values(fakemon || {}))
 }
 
+const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
+  if (gameId !== 'pokemon-evolved') return { pokemon, fakemon }
+
+  const order = Object.keys(fakemon)
+  const encounterable = new Set(
+    (routeData[gameId] || []).flatMap((route) => route.encounters || [])
+  )
+  const baseAliases = new Set(Object.keys(baseLookup))
+  const parentMap = {}
+  const evoMap = {}
+  const addEvolution = (parent, child) => {
+    if (!parent || !child || parent === child) return
+    evoMap[parent] = unique([...(evoMap[parent] || []), child])
+  }
+
+  order.forEach((alias, index) => {
+    const current = fakemon[alias]
+    if (!current?.evoline) return
+
+    if (current.evoline !== alias) {
+      parentMap[alias] = current.evoline
+      addEvolution(current.evoline, alias)
+      return
+    }
+
+    if (baseAliases.has(alias) || index === 0) return
+
+    const previous = order[index - 1]
+    if (!previous) return
+
+    parentMap[alias] = previous
+    addEvolution(previous, alias)
+  })
+
+  const lineCache = {}
+  const resolveLine = (alias, seen = new Set()) => {
+    if (lineCache[alias]) return lineCache[alias]
+    if (seen.has(alias))
+      return (
+        pokemon[alias]?.evoline || baseLookup[alias]?.evoline || fakemon[alias]?.evoline || alias
+      )
+
+    const parent = parentMap[alias]
+    if (!parent)
+      return (lineCache[alias] =
+        pokemon[alias]?.evoline || baseLookup[alias]?.evoline || fakemon[alias]?.evoline || alias)
+
+    if (fakemon[parent]) {
+      seen.add(alias)
+      return (lineCache[alias] = resolveLine(parent, seen))
+    }
+
+    return (lineCache[alias] =
+      pokemon[parent]?.evoline || baseLookup[parent]?.evoline || parent)
+  }
+
+  const patchedPokemon = { ...pokemon }
+  for (const alias of encounterable) {
+    if (fakemon[alias]) continue
+    patchedPokemon[alias] = {
+      ...(patchedPokemon[alias] || {}),
+      canEncounter: true
+    }
+  }
+
+  for (const [parent, evos] of Object.entries(evoMap)) {
+    if (fakemon[parent]) continue
+    patchedPokemon[parent] = {
+      ...(patchedPokemon[parent] || {}),
+      evos: unique([...(patchedPokemon[parent]?.evos || []), ...evos])
+    }
+  }
+
+  const patchedFakemon = Object.fromEntries(
+    order.map((alias) => {
+      const current = fakemon[alias]
+      return [
+        alias,
+        {
+          ...current,
+          canEncounter: current.canEncounter || encounterable.has(alias),
+          evos: unique([...(current.evos || []), ...(evoMap[alias] || [])]),
+          evoline: resolveLine(alias)
+        }
+      ]
+    })
+  )
+
+  return { pokemon: patchedPokemon, fakemon: patchedFakemon }
+}
+
 export async function GET({ params }) {
   const game = games[params.game]
-  const { pokemon, fakemon } =
-    patches[game?.patchId] || patches[params.game] || {}
+  const patch = patches[game?.patchId] || patches[params.game] || {}
+  const { pokemon, fakemon } = patchPokemonEvolved(
+    game?.patchId || params.game,
+    patch.pokemon,
+    patch.fakemon
+  )
 
   if (!game) return new Response('', { status: 404 })
   if (!game.patched && !game.filter)
