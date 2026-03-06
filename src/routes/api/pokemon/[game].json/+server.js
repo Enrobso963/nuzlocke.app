@@ -122,6 +122,21 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
     }
   }
 
+  const searchable = new Set(encounterable)
+  for (const pokemon of base) {
+    if (searchable.has(pokemon.alias)) continue
+    if (searchable.has(pokemon.evoline)) searchable.add(pokemon.alias)
+  }
+  const queue = [...searchable]
+  while (queue.length) {
+    const alias = queue.shift()
+    for (const evo of evoMap[alias] || []) {
+      if (searchable.has(evo)) continue
+      searchable.add(evo)
+      queue.push(evo)
+    }
+  }
+
   const patchedFakemon = Object.fromEntries(
     order.map((alias) => {
       const current = fakemon[alias]
@@ -129,7 +144,7 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
         alias,
         {
           ...current,
-          canEncounter: current.canEncounter ?? encounterable.has(alias),
+          canEncounter: current.canEncounter ?? searchable.has(alias),
           evos: unique([...(current.evos || []), ...(evoMap[alias] || [])]),
           evoline: resolveLine(alias)
         }
