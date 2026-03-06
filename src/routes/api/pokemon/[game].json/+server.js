@@ -125,11 +125,11 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
   const searchable = new Set(encounterable)
   for (const pokemon of base) {
     if (searchable.has(pokemon.alias)) continue
-    if (searchable.has(pokemon.evoline)) searchable.add(pokemon.alias)
+    if (encounterable.has(pokemon.evoline)) searchable.add(pokemon.alias)
   }
   const queue = [...searchable]
-  while (queue.length) {
-    const alias = queue.shift()
+  for (let index = 0; index < queue.length; index += 1) {
+    const alias = queue[index]
     for (const evo of evoMap[alias] || []) {
       if (searchable.has(evo)) continue
       searchable.add(evo)
