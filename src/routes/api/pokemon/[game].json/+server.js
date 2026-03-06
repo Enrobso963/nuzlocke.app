@@ -8,6 +8,9 @@ import Pokemon, { filterdata, sumObj } from '../../pokemon.json/_data.js'
 const base = filterdata(Pokemon)
 const baseLookup = Object.fromEntries(base.map((p) => [p.alias, p]))
 const unique = (items = []) => [...new Set(items.filter(Boolean))]
+const PokemonEvolvedParentOverrides = {
+  dragonier: 'dragonite'
+}
 
 const patchTypes = (pkmn, typeMap) => {
   if (!typeMap) return pkmn
@@ -61,16 +64,20 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
     const current = fakemon[alias]
     if (!current?.evoline) return
 
+    if (PokemonEvolvedParentOverrides[alias]) {
+      parentMap[alias] = PokemonEvolvedParentOverrides[alias]
+      addEvolution(PokemonEvolvedParentOverrides[alias], alias)
+      return
+    }
+
     if (current.evoline !== alias) {
       parentMap[alias] = current.evoline
       addEvolution(current.evoline, alias)
       return
     }
 
-    if (baseAliases.has(alias) || index === 0) return
-
     const previous = order[index - 1]
-    if (!previous) return
+    if (baseAliases.has(alias) || !previous) return
 
     parentMap[alias] = previous
     addEvolution(previous, alias)
@@ -80,19 +87,19 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
   const resolveLine = (alias, seen = new Set()) => {
     if (lineCache[alias]) return lineCache[alias]
     if (seen.has(alias))
-      return (
+      return (lineCache[alias] =
         pokemon[alias]?.evoline || baseLookup[alias]?.evoline || fakemon[alias]?.evoline || alias
       )
+    const nextSeen = new Set(seen)
+    nextSeen.add(alias)
 
     const parent = parentMap[alias]
     if (!parent)
       return (lineCache[alias] =
         pokemon[alias]?.evoline || baseLookup[alias]?.evoline || fakemon[alias]?.evoline || alias)
 
-    if (fakemon[parent]) {
-      seen.add(alias)
-      return (lineCache[alias] = resolveLine(parent, seen))
-    }
+    if (fakemon[parent])
+      return (lineCache[alias] = resolveLine(parent, nextSeen))
 
     return (lineCache[alias] =
       pokemon[parent]?.evoline || baseLookup[parent]?.evoline || parent)
@@ -122,7 +129,7 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
         alias,
         {
           ...current,
-          canEncounter: current.canEncounter || encounterable.has(alias),
+          canEncounter: current.canEncounter ?? encounterable.has(alias),
           evos: unique([...(current.evos || []), ...(evoMap[alias] || [])]),
           evoline: resolveLine(alias)
         }
