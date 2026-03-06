@@ -1,4 +1,16 @@
 {
+   "pokemon-evolved": {
+    "pid": "pokemon-evolved",
+    "lid": "pokemon-evolved",
+    "logo": "leaf-green-logo",
+    "title": "Pokemon Evolved",
+    "gen": "romhack",
+    "supported": true,
+    "patched": true,
+    "patchId": "pokemon-evolved",
+    "region": "kanto",
+    "lastUpdated": "5th March 2026"
+  },
   "newgen": {
     "pid": "newgen",
     "lid": "newgen",

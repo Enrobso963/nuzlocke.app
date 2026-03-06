@@ -1,0 +1,2165 @@
+{
+  "r1": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "bulbasaur",
+        "level": "5",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r2": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "pidgey",
+        "level": "10",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "bulbasaur",
+        "level": "10",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "1": {
+    "name": "Brock",
+    "speciality": "rock",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "omanyte",
+        "level": "12",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "kabuto",
+        "level": "12",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "onix",
+        "level": "14",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r3": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "pidgeotto",
+        "level": "21",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "kadabra",
+        "level": "20",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "raticate",
+        "level": "18",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "ivysaur",
+        "level": "22",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "2": {
+    "name": "Misty",
+    "speciality": "water",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "gyarados",
+        "level": "25",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "golduck",
+        "level": "25",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "starmie",
+        "level": "28",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r4": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "pidgeotto",
+        "level": "26",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "kadabra",
+        "level": "24",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "raticate",
+        "level": "22",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "ivysaur",
+        "level": "27",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "3": {
+    "name": "Lt. Surge",
+    "speciality": "electric",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "electrode",
+        "level": "31",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "jolteon",
+        "level": "33",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "gorochu",
+        "level": "33",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "electivire",
+        "level": "35",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r5": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "pidgaero",
+        "level": "39",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "hydrados",
+        "level": "40",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "arcanine",
+        "level": "40",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "ecosaur",
+        "level": "43",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "alakazam",
+        "level": "41",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "4": {
+    "name": "Erika",
+    "speciality": "grass",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "mucktribel",
+        "level": "41",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "electivine",
+        "level": "43",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric",
+          "grass"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "rafflurk",
+        "level": "40",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "tangather",
+        "level": "41",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "5": {
+    "name": "Koga",
+    "speciality": "poison",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "adnokana",
+        "level": "51",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "gunk",
+        "level": "53",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "rattarule",
+        "level": "52",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "visibat",
+        "level": "53",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "chohking",
+        "level": "56",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r6": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "moltres",
+        "level": "51",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "exeggity",
+        "level": "53",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "vohoo-du",
+        "level": "54",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "dracosmic",
+        "level": "53",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "terarisaur",
+        "level": "56",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "6": {
+    "name": "Sabrina",
+    "speciality": "psychic",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "platinupus",
+        "level": "56",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "electrodex",
+        "level": "57",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "electric"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "mr. fool",
+        "level": "57",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "t'zarkartz",
+        "level": "61",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "somnisooth",
+        "level": "56",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "7": {
+    "name": "Blaine",
+    "speciality": "fire",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "impsect",
+        "level": "63",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "bug",
+          "fire"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "volcanicol",
+        "level": "65",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "rock",
+          "fire"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "inferneon",
+        "level": "64",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "knightmare",
+        "level": "64",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "steel"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "teklawno",
+        "level": "65",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "fire"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "magmolten",
+        "level": "68",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "8": {
+    "name": "Giovanni",
+    "speciality": "ground",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "patraphinx",
+        "level": "66",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "ground"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "diglenoid",
+        "level": "66",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ground",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "stalagmix",
+        "level": "67",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "steel",
+          "ground"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "nidoarchy",
+        "level": "67",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison",
+          "ground"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "nidominate",
+        "level": "68",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "poison",
+          "ground"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "rhyborn",
+        "level": "70",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ground",
+          "steel"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "r7": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "ignithree",
+        "level": "66",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "exeggtric",
+        "level": "67",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "rhylic",
+        "level": "67",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ground",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "quazar",
+        "level": "67",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "t'zarkartz",
+        "level": "69",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "symbisaur",
+        "level": "72",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "e1": {
+    "name": "Lorelei",
+    "speciality": "ice",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "lickilato",
+        "level": "75",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "ice"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "jeepers",
+        "level": "76",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ice",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "manatii",
+        "level": "76",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "ice"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "glaishell",
+        "level": "75",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "ice"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "nessea",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "ice"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "missingno steel",
+        "level": "77",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "e2": {
+    "name": "Bruno",
+    "speciality": "fighting",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "radiachan",
+        "level": "76",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fighting",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "missingno rock",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "poliath",
+        "level": "76",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "spiritulee",
+        "level": "77",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fighting",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "machitan",
+        "level": "79",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fighting",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "bonumbell",
+        "level": "77",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fighting",
+          "steel"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "e3": {
+    "name": "Agatha",
+    "speciality": "ghost",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "fowln'tom",
+        "level": "77",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ghost",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "oxenfree",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "grimm",
+        "level": "80",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ghost",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "wraiwrath",
+        "level": "77",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ground",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "yokayubi",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "ghost"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "missingno ghost",
+        "level": "79",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "e4": {
+    "name": "Lance",
+    "speciality": "dragon",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "pinnadra",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "fortunitey",
+        "level": "78",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "dodozen",
+        "level": "79",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "dragon",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "quazar",
+        "level": "79",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "water",
+          "dragon"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "dragontale",
+        "level": "80",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "dragon",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "missingno flying",
+        "level": "80",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  },
+  "c": {
+    "name": "Rival",
+    "speciality": "mixed",
+    "img": "",
+    "pokemon": [
+      {
+        "name": "inferntri",
+        "level": "80",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "fire",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "dragontale",
+        "level": "82",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "dragon",
+          "flying"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "rhyborn",
+        "level": "82",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "ground",
+          "steel"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "t'zarkartz",
+        "level": "81",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic",
+          "dark"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "mewfour",
+        "level": "81",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      },
+      {
+        "name": "symbisaur",
+        "level": "85",
+        "moves": [],
+        "ability": {
+          "name": "",
+          "effect": ""
+        },
+        "sprite": "",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        }
+      }
+    ]
+  }
+}
