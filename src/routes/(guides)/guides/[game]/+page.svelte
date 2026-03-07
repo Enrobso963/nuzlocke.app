@@ -9,9 +9,28 @@
 
   import { Hero, Links, Summary, Bosses, Aside } from '$c/Guide'
   import { faq } from '$c/Guide/schemas'
+  import { normalise } from '$utils/string'
 
   setContext('game', {
-    getLeague: (_, starter) => data.data[starter]
+    getLeague: (_, starter) => data.data[starter],
+    getPkmns: (ids = []) =>
+      Promise.resolve(
+        ids.reduce((acc, id) => {
+          const nid = normalise(id)
+          const found = data.pokemon.find(
+            (p) =>
+              normalise(p.alias) === nid ||
+              normalise(p.name) === nid ||
+              normalise(p.sprite) === nid
+          )
+
+          if (!found) return acc
+          return {
+            ...acc,
+            [found.alias]: found
+          }
+        }, {})
+      )
   })
   setContext('simple-modal', {
     open: false

@@ -149,6 +149,7 @@ export async function load({ params, url, fetch }) {
     attributes,
     links,
     game: gameObj,
+    pokemon,
     path: url.pathname,
     route: {
       routes,

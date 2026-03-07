@@ -31,7 +31,7 @@
   import Label from '$lib/components/label.svelte'
 
   import { createImgUrl } from '$utils/rewrites'
-  import { toList } from '$utils/string'
+  import { normalise, toList } from '$utils/string'
 
   import { Picture, Icon, PIcon, IconButton, Accordion, Tooltip } from '$c/core'
   import { Wrapper as SettingWrapper } from '$lib/components/Settings'
@@ -42,7 +42,10 @@
 
   import Effect from '$lib/components/Effect.svelte'
 
-  const { getLeague } = getContext('game')
+  const {
+    getLeague,
+    getPkmns = async () => ({})
+  } = getContext('game')
   const { open } = getContext('simple-modal')
 
   let CompareModal
@@ -61,15 +64,39 @@
 
   export let loading = true
 
+  const enrichPokemon = async (team = []) => {
+    const pkmn = await getPkmns(team.map((p) => p.name))
+    const lookup = Object.fromEntries(
+      Object.entries(pkmn || {}).map(([key, value]) => [normalise(key), value])
+    )
+
+    return team.map((entry) => {
+      const data = lookup[normalise(entry.name)] || {}
+      const stats =
+        entry.stats && Object.values(entry.stats).some(Boolean)
+          ? entry.stats
+          : data.baseStats || entry.stats
+
+      return {
+        ...data,
+        ...entry,
+        stats,
+        types: entry.types?.length ? entry.types : data.types || entry.types,
+        sprite: entry.sprite || data.imgId || data.sprite,
+        imgUrl: entry.imgUrl || data.imgUrl
+      }
+    })
+  }
+
   const fetchData = async (starter) => {
     if (!browser) return
     try {
       const league = await getLeague(game, starter)
       const data = league[id]
 
-      img = bossToImage(data);
+      img = bossToImage(data)
 
-      pokemon = data.pokemon
+      pokemon = await enrichPokemon(data.pokemon)
       name = data.name
       speciality = data.speciality
 

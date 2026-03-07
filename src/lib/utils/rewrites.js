@@ -30,6 +30,7 @@ export const createImgUrl = (p, { ext = 'webp', shiny = false } = {}) => {
     .replace('.webp', '')
 
   if (!normalId) return UNOWN
+  if (!/^\d+$/.test(normalId)) return UNOWN
 
   if (shiny) return `${SPRITE}/shiny-${normalId}.${ext}`
   return `${SPRITE}/base-${normalId}.${ext}`
