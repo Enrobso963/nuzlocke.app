@@ -72,10 +72,9 @@
 
     return team.map((entry) => {
       const data = lookup[normalise(entry.name)] || {}
+      const hasStats = entry.stats && Object.values(entry.stats).some(Boolean)
       const stats =
-        entry.stats && Object.values(entry.stats).some(Boolean)
-          ? entry.stats
-          : data.baseStats || entry.stats
+        hasStats ? entry.stats : data.baseStats ?? entry.stats
 
       return {
         ...data,

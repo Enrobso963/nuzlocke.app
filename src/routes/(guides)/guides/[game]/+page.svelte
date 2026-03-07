@@ -11,18 +11,26 @@
   import { faq } from '$c/Guide/schemas'
   import { normalise } from '$utils/string'
 
+  const pokemonLookup = data.pokemon.reduce((acc, pokemon) => {
+    const pairs = [
+      pokemon.alias,
+      pokemon.name,
+      pokemon.sprite
+    ].filter(Boolean)
+
+    for (const key of pairs) {
+      acc[normalise(key)] = pokemon
+    }
+
+    return acc
+  }, {})
+
   setContext('game', {
     getLeague: (_, starter) => data.data[starter],
     getPkmns: (ids = []) =>
       Promise.resolve(
         ids.reduce((acc, id) => {
-          const nid = normalise(id)
-          const found = data.pokemon.find(
-            (p) =>
-              normalise(p.alias) === nid ||
-              normalise(p.name) === nid ||
-              normalise(p.sprite) === nid
-          )
+          const found = pokemonLookup[normalise(id)]
 
           if (!found) return acc
           return {
