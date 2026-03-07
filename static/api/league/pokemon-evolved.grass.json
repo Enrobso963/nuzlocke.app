@@ -2,36 +2,36 @@
   "r1": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-1",
     "pokemon": [
       {
-        "name": "bulbasaur",
+        "name": "charmander",
         "level": "5",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "4",
         "types": [
-          "grass",
-          "poison"
+          "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 39,
+          "atk": 52,
+          "def": 43,
+          "spa": 60,
+          "spd": 50,
+          "spe": 65
+        },
+        "starter": "grass"
       }
     ]
   },
   "r2": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-1",
     "pokemon": [
       {
         "name": "pidgey",
@@ -41,48 +41,48 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "16",
         "types": [
           "normal",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 40,
+          "atk": 45,
+          "def": 40,
+          "spa": 35,
+          "spd": 35,
+          "spe": 56
         }
       },
       {
-        "name": "bulbasaur",
+        "name": "charmander",
         "level": "10",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "4",
         "types": [
-          "grass",
-          "poison"
+          "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 39,
+          "atk": 52,
+          "def": 43,
+          "spa": 60,
+          "spd": 50,
+          "spe": 65
+        },
+        "starter": "grass"
       }
     ]
   },
   "1": {
     "name": "Brock",
     "speciality": "rock",
-    "img": "",
+    "img": "/leaders/frlg-brock",
     "pokemon": [
       {
         "name": "omanyte",
@@ -92,18 +92,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "138",
         "types": [
           "rock",
           "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 35,
+          "atk": 40,
+          "def": 100,
+          "spa": 90,
+          "spd": 55,
+          "spe": 35
         }
       },
       {
@@ -114,18 +114,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "140",
         "types": [
           "rock",
           "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 30,
+          "atk": 80,
+          "def": 90,
+          "spa": 55,
+          "spd": 45,
+          "spe": 55
         }
       },
       {
@@ -136,18 +136,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "95",
         "types": [
           "rock",
           "ground"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 35,
+          "atk": 45,
+          "def": 160,
+          "spa": 30,
+          "spd": 45,
+          "spe": 70
         }
       }
     ]
@@ -155,7 +155,7 @@
   "r3": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-1",
     "pokemon": [
       {
         "name": "pidgeotto",
@@ -165,18 +165,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "17",
         "types": [
           "normal",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 63,
+          "atk": 60,
+          "def": 55,
+          "spa": 50,
+          "spd": 50,
+          "spe": 71
         }
       },
       {
@@ -187,17 +187,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "64",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 40,
+          "atk": 35,
+          "def": 30,
+          "spa": 120,
+          "spd": 70,
+          "spe": 105
         }
       },
       {
@@ -208,47 +208,48 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10093",
         "types": [
+          "dark",
           "normal"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 75,
+          "atk": 71,
+          "def": 70,
+          "spa": 40,
+          "spd": 80,
+          "spe": 77
         }
       },
       {
-        "name": "ivysaur",
+        "name": "charmeleon",
         "level": "22",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "5",
         "types": [
-          "grass",
-          "poison"
+          "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 58,
+          "atk": 64,
+          "def": 58,
+          "spa": 80,
+          "spd": 65,
+          "spe": 80
+        },
+        "starter": "grass"
       }
     ]
   },
   "2": {
     "name": "Misty",
     "speciality": "water",
-    "img": "",
+    "img": "/leaders/frlg-misty",
     "pokemon": [
       {
         "name": "gyarados",
@@ -258,18 +259,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10041",
         "types": [
           "water",
-          "flying"
+          "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 95,
+          "atk": 155,
+          "def": 109,
+          "spa": 70,
+          "spd": 130,
+          "spe": 81
         }
       },
       {
@@ -280,17 +281,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "55",
         "types": [
           "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 82,
+          "def": 78,
+          "spa": 95,
+          "spd": 80,
+          "spe": 85
         }
       },
       {
@@ -301,18 +302,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "121",
         "types": [
           "water",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 60,
+          "atk": 75,
+          "def": 85,
+          "spa": 100,
+          "spd": 85,
+          "spe": 115
         }
       }
     ]
@@ -320,7 +321,7 @@
   "r4": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-2",
     "pokemon": [
       {
         "name": "pidgeotto",
@@ -330,18 +331,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "17",
         "types": [
           "normal",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 63,
+          "atk": 60,
+          "def": 55,
+          "spa": 50,
+          "spd": 50,
+          "spe": 71
         }
       },
       {
@@ -352,17 +353,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "64",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 40,
+          "atk": 35,
+          "def": 30,
+          "spa": 120,
+          "spd": 70,
+          "spe": 105
         }
       },
       {
@@ -373,47 +374,48 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10093",
         "types": [
+          "dark",
           "normal"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 75,
+          "atk": 71,
+          "def": 70,
+          "spa": 40,
+          "spd": 80,
+          "spe": 77
         }
       },
       {
-        "name": "ivysaur",
+        "name": "charmeleon",
         "level": "27",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "5",
         "types": [
-          "grass",
-          "poison"
+          "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 58,
+          "atk": 64,
+          "def": 58,
+          "spa": 80,
+          "spd": 65,
+          "spe": 80
+        },
+        "starter": "grass"
       }
     ]
   },
   "3": {
     "name": "Lt. Surge",
     "speciality": "electric",
-    "img": "",
+    "img": "/leaders/frlg-surge",
     "pokemon": [
       {
         "name": "electrode",
@@ -423,17 +425,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10232",
         "types": [
-          "electric"
+          "electric",
+          "grass"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 60,
+          "atk": 50,
+          "def": 70,
+          "spa": 80,
+          "spd": 80,
+          "spe": 150
         }
       },
       {
@@ -444,17 +447,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "135",
         "types": [
           "electric"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 65,
+          "atk": 65,
+          "def": 60,
+          "spa": 110,
+          "spd": 95,
+          "spe": 130
         }
       },
       {
@@ -465,18 +468,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "gorochu",
         "types": [
           "electric",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 70,
+          "atk": 100,
+          "def": 65,
+          "spa": 95,
+          "spd": 80,
+          "spe": 100
         }
       },
       {
@@ -487,17 +490,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "466",
         "types": [
           "electric"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 75,
+          "atk": 123,
+          "def": 67,
+          "spa": 95,
+          "spd": 85,
+          "spe": 95
         }
       }
     ]
@@ -505,7 +508,7 @@
   "r5": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-2",
     "pokemon": [
       {
         "name": "pidgaero",
@@ -515,18 +518,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "pidgaero",
         "types": [
           "normal",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -537,18 +540,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "hydrados",
         "types": [
           "water",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -559,17 +562,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10230",
         "types": [
-          "fire"
+          "fire",
+          "rock"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 95,
+          "atk": 115,
+          "def": 80,
+          "spa": 95,
+          "spd": 80,
+          "spe": 90
         }
       },
       {
@@ -580,18 +584,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "ecosaur",
         "types": [
           "grass",
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -602,17 +606,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "65",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 55,
+          "atk": 50,
+          "def": 45,
+          "spa": 135,
+          "spd": 95,
+          "spe": 120
         }
       }
     ]
@@ -620,7 +624,7 @@
   "4": {
     "name": "Erika",
     "speciality": "grass",
-    "img": "",
+    "img": "/leaders/frlg-erika",
     "pokemon": [
       {
         "name": "mucktribel",
@@ -630,18 +634,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "mucktribel",
         "types": [
           "grass",
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -652,18 +656,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "electivine",
         "types": [
           "electric",
           "grass"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -674,18 +678,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "rafflurk",
         "types": [
           "grass",
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -696,17 +700,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "tangather",
         "types": [
           "grass"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -714,7 +718,7 @@
   "5": {
     "name": "Koga",
     "speciality": "poison",
-    "img": "",
+    "img": "/leaders/frlg-koga",
     "pokemon": [
       {
         "name": "adnokana",
@@ -724,17 +728,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "adnokana",
         "types": [
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -745,17 +749,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "gunk",
         "types": [
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -766,18 +770,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "rattarule",
         "types": [
           "normal",
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -788,18 +792,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "visibat",
         "types": [
           "poison",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -810,17 +814,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "chohking",
         "types": [
           "poison"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -828,29 +832,30 @@
   "r6": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-2",
     "pokemon": [
       {
-        "name": "moltres",
+        "name": "zapdos",
         "level": "51",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "10170",
         "types": [
-          "fire",
+          "fighting",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 90,
+          "atk": 125,
+          "def": 90,
+          "spa": 85,
+          "spd": 90,
+          "spe": 100
+        },
+        "starter": "grass"
       },
       {
         "name": "exeggity",
@@ -860,18 +865,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "exeggity",
         "types": [
           "grass",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -882,18 +887,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "vohoo-du",
         "types": [
           "psychic",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -904,48 +909,49 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "dracosmic",
         "types": [
           "water",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
-        "name": "terarisaur",
+        "name": "chariana",
         "level": "56",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "chariana",
         "types": [
-          "grass",
-          "poison"
+          "fire",
+          "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
+        },
+        "starter": "grass"
       }
     ]
   },
   "6": {
     "name": "Sabrina",
     "speciality": "psychic",
-    "img": "",
+    "img": "/leaders/frlg-sabrina",
     "pokemon": [
       {
         "name": "platinupus",
@@ -955,18 +961,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "platinupus",
         "types": [
           "water",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -977,17 +983,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "electrodex",
         "types": [
           "electric"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -998,17 +1004,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "mr-fool",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1019,18 +1025,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "tzarkartz",
         "types": [
           "psychic",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1041,17 +1047,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "somnisooth",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1059,7 +1065,7 @@
   "7": {
     "name": "Blaine",
     "speciality": "fire",
-    "img": "",
+    "img": "/leaders/frlg-blaine",
     "pokemon": [
       {
         "name": "impsect",
@@ -1069,18 +1075,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "impsect",
         "types": [
           "bug",
           "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1091,18 +1097,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "volcanicol",
         "types": [
           "rock",
           "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1113,17 +1119,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "inferneon",
         "types": [
           "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1134,18 +1140,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "knightmare",
         "types": [
           "fire",
           "steel"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1156,18 +1162,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "teklawno",
         "types": [
           "water",
           "fire"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1178,18 +1184,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "magmolten",
         "types": [
           "fire",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1197,7 +1203,7 @@
   "8": {
     "name": "Giovanni",
     "speciality": "ground",
-    "img": "",
+    "img": "/leaders/frlg-giovanni",
     "pokemon": [
       {
         "name": "patraphinx",
@@ -1207,18 +1213,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "patraphinx",
         "types": [
           "normal",
           "ground"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1229,18 +1235,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "diglenoid",
         "types": [
           "ground",
           "fighting"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1251,18 +1257,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "stalagmix",
         "types": [
           "steel",
           "ground"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1273,18 +1279,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "nidoarchy",
         "types": [
           "poison",
           "ground"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1295,18 +1301,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "nidominate",
         "types": [
           "poison",
           "ground"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1317,18 +1323,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "rhyborn",
         "types": [
           "ground",
           "steel"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1336,29 +1342,30 @@
   "r7": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-2",
     "pokemon": [
       {
-        "name": "ignithree",
+        "name": "shockatoo",
         "level": "66",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "shockatoo",
         "types": [
-          "fire",
+          "electric",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
+        },
+        "starter": "grass"
       },
       {
         "name": "exeggtric",
@@ -1368,18 +1375,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "exeggtric",
         "types": [
           "grass",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1390,18 +1397,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "rhylic",
         "types": [
           "ground",
           "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1412,18 +1419,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "quazar",
         "types": [
           "water",
           "dragon"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1434,48 +1441,49 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "tzarkartz",
         "types": [
           "psychic",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
-        "name": "symbisaur",
+        "name": "chariathan",
         "level": "72",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "chariathan",
         "types": [
-          "grass",
-          "poison"
+          "fire",
+          "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
+        },
+        "starter": "grass"
       }
     ]
   },
   "e1": {
     "name": "Lorelei",
     "speciality": "ice",
-    "img": "",
+    "img": "/leaders/frlg-lorelei",
     "pokemon": [
       {
         "name": "lickilato",
@@ -1485,18 +1493,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "lickilato",
         "types": [
           "normal",
           "ice"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1507,18 +1515,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "jeepers",
         "types": [
           "ice",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1529,18 +1537,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "manatii",
         "types": [
           "water",
           "ice"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1551,18 +1559,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "glaishell",
         "types": [
           "water",
           "ice"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1573,18 +1581,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "nessea",
         "types": [
           "water",
           "ice"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1595,17 +1603,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "missingno---form-5",
         "types": [
-          "normal"
+          "steel"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1613,7 +1621,7 @@
   "e2": {
     "name": "Bruno",
     "speciality": "fighting",
-    "img": "",
+    "img": "/leaders/frlg-bruno",
     "pokemon": [
       {
         "name": "radiachan",
@@ -1623,18 +1631,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "radiachan",
         "types": [
           "fighting",
           "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1645,17 +1653,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "missingno---form-4",
         "types": [
-          "normal"
+          "rock"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1666,18 +1674,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "poliath",
         "types": [
           "water",
           "fighting"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1688,18 +1696,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "spiritulee",
         "types": [
           "fighting",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1710,18 +1718,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "machitan",
         "types": [
           "fighting",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1732,18 +1740,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "bonumbell",
         "types": [
           "fighting",
           "steel"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1751,7 +1759,7 @@
   "e3": {
     "name": "Agatha",
     "speciality": "ghost",
-    "img": "",
+    "img": "/leaders/frlg-agatha",
     "pokemon": [
       {
         "name": "fowln'tom",
@@ -1761,18 +1769,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "fowlntom",
         "types": [
           "ghost",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1783,18 +1791,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "oxenfree",
         "types": [
           "normal",
           "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1805,18 +1813,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "grimm",
         "types": [
           "ghost",
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1827,18 +1835,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "wraiwrath",
         "types": [
           "ground",
           "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1849,18 +1857,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "yokayubi",
         "types": [
           "fire",
           "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1871,17 +1879,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "missingno---form-2",
         "types": [
-          "normal"
+          "ghost"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -1889,7 +1897,7 @@
   "e4": {
     "name": "Lance",
     "speciality": "dragon",
-    "img": "",
+    "img": "/leaders/frlg-lance",
     "pokemon": [
       {
         "name": "pinnadra",
@@ -1899,18 +1907,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "pinnadra",
         "types": [
           "water",
           "dragon"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1921,18 +1929,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "fortunitey",
         "types": [
           "normal",
           "dragon"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1943,18 +1951,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "dodozen",
         "types": [
           "dragon",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1965,18 +1973,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "quazar",
         "types": [
           "water",
           "dragon"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -1987,18 +1995,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "dragontale",
         "types": [
           "dragon",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -2009,17 +2017,17 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "missingno---form-3",
         "types": [
-          "normal"
+          "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       }
     ]
@@ -2027,29 +2035,30 @@
   "c": {
     "name": "Rival",
     "speciality": "mixed",
-    "img": "",
+    "img": "/leaders/frlg-blue-3",
     "pokemon": [
       {
-        "name": "inferntri",
+        "name": "voltduo",
         "level": "80",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "voltduo",
         "types": [
-          "fire",
+          "electric",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
+        },
+        "starter": "grass"
       },
       {
         "name": "dragontale",
@@ -2059,18 +2068,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "dragontale",
         "types": [
           "dragon",
           "flying"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -2081,18 +2090,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "rhyborn",
         "types": [
           "ground",
           "steel"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -2103,18 +2112,18 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "tzarkartz",
         "types": [
           "psychic",
           "dark"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
@@ -2125,40 +2134,41 @@
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "mewfour",
         "types": [
           "psychic"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
         }
       },
       {
-        "name": "symbisaur",
+        "name": "chariathan",
         "level": "85",
         "moves": [],
         "ability": {
           "name": "",
           "effect": ""
         },
-        "sprite": "",
+        "sprite": "chariathan",
         "types": [
-          "grass",
-          "poison"
+          "fire",
+          "water"
         ],
         "stats": {
-          "hp": 0,
-          "atk": 0,
-          "def": 0,
-          "spa": 0,
-          "spd": 0,
-          "spe": 0
-        }
+          "hp": 80,
+          "atk": 80,
+          "def": 80,
+          "spa": 80,
+          "spd": 80,
+          "spe": 80
+        },
+        "starter": "grass"
       }
     ]
   }
