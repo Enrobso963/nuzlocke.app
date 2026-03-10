@@ -83,7 +83,8 @@
         ...entry,
         stats,
         types: entry.types?.length ? entry.types : data.types || entry.types,
-        sprite: /^\d+$/.test(entrySprite) ? entrySprite : dataSprite || entrySprite,
+        sprite: entrySprite || dataSprite,
+        icon: entry.icon || data.icon || data.alias || entry.name,
         imgUrl: entry.imgUrl || data.imgUrl
       }
     })

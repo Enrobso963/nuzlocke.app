@@ -25,12 +25,13 @@ export const createImgUrl = (p, { ext = 'webp', shiny = false } = {}) => {
   if (!p) return UNOWN
   if (p.imgUrl) return `${CUSTOM}${p.imgUrl}.${ext}`
 
-  const normalId = ('' + (p.imgId || p.sprite || ''))
+  const rawId = ('' + (p.sprite || p.imgId || ''))
     .replace('.png', '')
     .replace('.webp', '')
+    .trim()
+  const normalId = encodeURIComponent(rawId)
 
   if (!normalId) return UNOWN
-  if (!/^\d+$/.test(normalId)) return UNOWN
 
   if (shiny) return `${SPRITE}/shiny-${normalId}.${ext}`
   return `${SPRITE}/base-${normalId}.${ext}`
