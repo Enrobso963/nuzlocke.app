@@ -13,7 +13,10 @@ export const slugify = (s = '') =>
 
 export const normalise = (s = '') => {
   try {
-    return (s || '').replace(/[-\.]/g, '')
+    return (s || '')
+      .toString()
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, '')
   } catch (e) {
     console.error(e)
     console.log(s)

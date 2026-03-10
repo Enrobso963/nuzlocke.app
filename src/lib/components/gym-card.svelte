@@ -73,6 +73,8 @@
     return team.map((entry) => {
       const data = lookup[normalise(entry.name)] || {}
       const hasStats = entry.stats && Object.values(entry.stats).some(Boolean)
+      const entrySprite = `${entry.sprite || ''}`
+      const dataSprite = `${data.imgId || data.sprite || ''}`
       const stats =
         hasStats ? entry.stats : data.baseStats ?? entry.stats
 
@@ -81,7 +83,7 @@
         ...entry,
         stats,
         types: entry.types?.length ? entry.types : data.types || entry.types,
-        sprite: entry.sprite || data.imgId || data.sprite,
+        sprite: /^\d+$/.test(entrySprite) ? entrySprite : dataSprite || entrySprite,
         imgUrl: entry.imgUrl || data.imgUrl
       }
     })
