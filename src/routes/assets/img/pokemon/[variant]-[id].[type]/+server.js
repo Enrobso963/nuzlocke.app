@@ -19,6 +19,8 @@ const customSprites = import.meta.glob(['/sprites/*.png'], {
   import: 'default'
 })
 
+// Custom Pokemon Evolved sprites are expected to use:
+// graphics.pokemon.sprites.front_<id>_<name>.png
 const CUSTOM_SPRITE_PATTERN = /front_(\d+)_(.+)\.png$/i
 const MAX_SPRITE_KEY_LENGTH = 120
 
@@ -46,6 +48,11 @@ const baseAliasToId = BasePokemon.reduce((acc, pokemon) => {
 }, {})
 
 const PokemonEvolvedLegacySprites = {
+  missingno: '350',
+  missingnoghost: '351',
+  missingnoflying: '352',
+  missingnorock: '353',
+  missingnosteel: '354',
   missingnoform1: '350',
   missingnoform2: '351',
   missingnoform3: '352',
