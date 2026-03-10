@@ -26,8 +26,7 @@ export const createImgUrl = (p, { ext = 'webp', shiny = false } = {}) => {
   if (p.imgUrl) return `${CUSTOM}${p.imgUrl}.${ext}`
 
   const rawId = ('' + (p.sprite || p.imgId || ''))
-    .replace('.png', '')
-    .replace('.webp', '')
+    .replace(/\.(png|webp)$/i, '')
     .trim()
   const normalId = encodeURIComponent(rawId)
 

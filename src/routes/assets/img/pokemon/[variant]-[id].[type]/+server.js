@@ -1,3 +1,5 @@
+import { Buffer } from 'node:buffer'
+
 import BasePokemon from '../../../../api/pokemon.json/_pokemon.json'
 import patches from '$lib/data/patches.json'
 
@@ -17,10 +19,20 @@ const customSprites = import.meta.glob(['/sprites/*.png'], {
   import: 'default'
 })
 
-const normalise = (value = '') =>
-  decodeURIComponent(`${value}`)
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '')
+const CUSTOM_SPRITE_PATTERN = /front_(\d+)_(.+)\.png$/i
+const MAX_SPRITE_KEY_LENGTH = 120
+
+const normalise = (value = '') => {
+  const raw = `${value}`.slice(0, MAX_SPRITE_KEY_LENGTH)
+
+  try {
+    return decodeURIComponent(raw)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '')
+  } catch {
+    return raw.toLowerCase().replace(/[^a-z0-9]+/g, '')
+  }
+}
 
 const baseAliasToId = BasePokemon.reduce((acc, pokemon) => {
   const id = `${pokemon.imgId || pokemon.num || ''}`
@@ -57,7 +69,7 @@ const customAliasToId = Object.values(patches['pokemon-evolved']?.fakemon || {})
 
 const { byId: customById, byName: customByName } = Object.entries(customSprites).reduce(
   (acc, [path, loader]) => {
-    const match = /front_(\d+)_(.+)\.png$/i.exec(path)
+    const match = CUSTOM_SPRITE_PATTERN.exec(path)
     if (!match) return acc
 
     const [, id, name] = match
