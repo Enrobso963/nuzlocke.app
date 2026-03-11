@@ -9,34 +9,26 @@
         "level": "5",
         "moves": [
           {
-            "name": "Gust",
-            "power": 40,
-            "type": "flying",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Double Kick",
-            "power": 30,
-            "type": "fighting",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Horn Drill",
-            "power": null,
-            "type": "normal",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Tackle",
             "power": 40,
             "type": "normal",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Leech Seed",
+            "power": null,
+            "type": "grass",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Growl",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -125,18 +117,18 @@
         "level": "12",
         "moves": [
           {
-            "name": "Bind",
-            "power": 15,
-            "type": "normal",
+            "name": "Bite",
+            "power": 60,
+            "type": "dark",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Constrict",
-            "power": 10,
-            "type": "normal",
-            "damage_class": "physical",
+            "name": "Water Gun",
+            "power": 40,
+            "type": "water",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
@@ -149,10 +141,10 @@
             "priority": 0
           },
           {
-            "name": "Sand Attack",
-            "power": null,
-            "type": "ground",
-            "damage_class": "status",
+            "name": "Constrict",
+            "power": 10,
+            "type": "normal",
+            "damage_class": "physical",
             "effect": "",
             "priority": 0
           }
@@ -181,18 +173,18 @@
         "level": "12",
         "moves": [
           {
-            "name": "Harden",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Scratch",
             "power": 40,
             "type": "normal",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Harden",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -519,36 +511,36 @@
         "level": "26",
         "moves": [
           {
-            "name": "Meteor Mash",
-            "power": 90,
-            "type": "steel",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Flatter",
+            "name": "Sand Attack",
             "power": null,
-            "type": "dark",
+            "type": "ground",
             "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Secret Power",
-            "power": 70,
-            "type": "normal",
-            "damage_class": "physical",
+            "name": "Gust",
+            "power": 40,
+            "type": "flying",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Blast Burn",
-            "power": 150,
-            "type": "fire",
-            "damage_class": "special",
+            "name": "Quick Attack",
+            "power": 40,
+            "type": "normal",
+            "damage_class": "physical",
             "effect": "",
-            "priority": 0
+            "priority": 1
+          },
+          {
+            "name": "Whirlwind",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": -6
           }
         ],
         "ability": {
@@ -575,34 +567,34 @@
         "level": "22",
         "moves": [
           {
-            "name": "Grass Whistle",
-            "power": null,
-            "type": "grass",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Swallow",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Hyper Beam",
-            "power": 150,
-            "type": "normal",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Cut",
-            "power": 50,
+            "name": "Quick Attack",
+            "power": 40,
             "type": "normal",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 1
+          },
+          {
+            "name": "Snatch",
+            "power": null,
+            "type": "dark",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 4
+          },
+          {
+            "name": "Hyper Fang",
+            "power": 80,
+            "type": "normal",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Scary Face",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -631,18 +623,26 @@
         "level": "24",
         "moves": [
           {
-            "name": "Psybeam",
-            "power": 65,
+            "name": "Confusion",
+            "power": 50,
             "type": "psychic",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Miracle Eye",
+            "name": "Disable",
             "power": null,
-            "type": "psychic",
+            "type": "normal",
             "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Psybeam",
+            "power": 65,
+            "type": "psychic",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
@@ -653,14 +653,6 @@
             "damage_class": "status",
             "effect": "",
             "priority": 0
-          },
-          {
-            "name": "Ally Switch",
-            "power": null,
-            "type": "psychic",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 2
           }
         ],
         "ability": {
@@ -686,34 +678,34 @@
         "level": "27",
         "moves": [
           {
-            "name": "Wish",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Horn Drill",
-            "power": null,
-            "type": "normal",
+            "name": "Vine Whip",
+            "power": 45,
+            "type": "grass",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Tail Whip",
+            "name": "Poison Powder",
             "power": null,
-            "type": "normal",
+            "type": "poison",
             "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Swallow",
+            "name": "Sleep Powder",
             "power": null,
-            "type": "normal",
+            "type": "grass",
             "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Razor Leaf",
+            "power": 55,
+            "type": "grass",
+            "damage_class": "physical",
             "effect": "",
             "priority": 0
           }
@@ -750,16 +742,24 @@
         "level": "31",
         "moves": [
           {
-            "name": "Spark",
-            "power": 65,
-            "type": "electric",
-            "damage_class": "physical",
+            "name": "Screech",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Charge Beam",
-            "power": 50,
+            "name": "Sonic Boom",
+            "power": null,
+            "type": "normal",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Shock Wave",
+            "power": 60,
             "type": "electric",
             "damage_class": "special",
             "effect": "",
@@ -770,14 +770,6 @@
             "power": 200,
             "type": "normal",
             "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Electro Ball",
-            "power": null,
-            "type": "electric",
-            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -806,12 +798,12 @@
         "level": "33",
         "moves": [
           {
-            "name": "Baby-Doll Eyes",
+            "name": "Sand Attack",
             "power": null,
-            "type": "fairy",
+            "type": "ground",
             "damage_class": "status",
             "effect": "",
-            "priority": 1
+            "priority": 0
           },
           {
             "name": "Thunder Shock",
@@ -912,34 +904,34 @@
         "level": "39",
         "moves": [
           {
-            "name": "Supersonic",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Heat Wave",
-            "power": 95,
-            "type": "fire",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wish",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Wing Attack",
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Feather Dance",
+            "power": null,
+            "type": "flying",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Drill Peck",
+            "power": 80,
+            "type": "flying",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Agility",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -969,18 +961,18 @@
         "level": "40",
         "moves": [
           {
-            "name": "Scary Face",
+            "name": "Dragon Rage",
             "power": null,
-            "type": "normal",
-            "damage_class": "status",
+            "type": "dragon",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Aqua Tail",
-            "power": 90,
-            "type": "water",
-            "damage_class": "physical",
+            "name": "Leer",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
@@ -1026,33 +1018,33 @@
         "level": "40",
         "moves": [
           {
-            "name": "Comet Punch",
-            "power": 18,
+            "name": "Take Down",
+            "power": 90,
             "type": "normal",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Superpower",
-            "power": 120,
-            "type": "fighting",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Poison Sting",
-            "power": 15,
-            "type": "poison",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Reversal",
+            "name": "Helping Hand",
             "power": null,
-            "type": "fighting",
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 5
+          },
+          {
+            "name": "Agility",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Blaze Kick",
+            "power": 85,
+            "type": "fire",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
@@ -1082,15 +1074,15 @@
         "level": "41",
         "moves": [
           {
-            "name": "Psycho Cut",
-            "power": 70,
+            "name": "Future Sight",
+            "power": 120,
             "type": "psychic",
-            "damage_class": "physical",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Telekinesis",
+            "name": "Calm Mind",
             "power": null,
             "type": "psychic",
             "damage_class": "status",
@@ -1106,7 +1098,7 @@
             "priority": 0
           },
           {
-            "name": "Role Play",
+            "name": "Trick",
             "power": null,
             "type": "psychic",
             "damage_class": "status",
@@ -1137,7 +1129,15 @@
         "level": "43",
         "moves": [
           {
-            "name": "Supersonic",
+            "name": "Razor Leaf",
+            "power": 55,
+            "type": "grass",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Sweet Scent",
             "power": null,
             "type": "normal",
             "damage_class": "status",
@@ -1145,26 +1145,18 @@
             "priority": 0
           },
           {
-            "name": "Heat Wave",
-            "power": 95,
-            "type": "fire",
+            "name": "Sludge Bomb",
+            "power": 90,
+            "type": "poison",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Wish",
+            "name": "Growth",
             "power": null,
             "type": "normal",
             "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wing Attack",
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
             "effect": "",
             "priority": 0
           }
@@ -1201,14 +1193,6 @@
         "level": "41",
         "moves": [
           {
-            "name": "Swallow",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Sweet Scent",
             "power": null,
             "type": "normal",
@@ -1217,18 +1201,26 @@
             "priority": 0
           },
           {
-            "name": "Vine Whip",
-            "power": 45,
-            "type": "grass",
+            "name": "Sludge Bomb",
+            "power": 90,
+            "type": "poison",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Slam",
+            "power": 80,
+            "type": "normal",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Leaf Tornado",
-            "power": 65,
-            "type": "grass",
-            "damage_class": "special",
+            "name": "Toxic",
+            "power": null,
+            "type": "poison",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -1281,33 +1273,33 @@
         "level": "40",
         "moves": [
           {
-            "name": "Leech Life",
-            "power": 80,
-            "type": "bug",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Future Sight",
-            "power": 120,
-            "type": "psychic",
+            "name": "Acid",
+            "power": 40,
+            "type": "poison",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Egg Bomb",
-            "power": 100,
-            "type": "normal",
-            "damage_class": "physical",
+            "name": "Toxic",
+            "power": null,
+            "type": "poison",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Light Screen",
+            "name": "Petal Dance",
+            "power": 120,
+            "type": "grass",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Moonlight",
             "power": null,
-            "type": "psychic",
+            "type": "fairy",
             "damage_class": "status",
             "effect": "",
             "priority": 0
@@ -1367,18 +1359,18 @@
         "level": "51",
         "moves": [
           {
-            "name": "Future Sight",
-            "power": 120,
+            "name": "Agility",
+            "power": null,
             "type": "psychic",
-            "damage_class": "special",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Egg Bomb",
-            "power": 100,
-            "type": "normal",
-            "damage_class": "physical",
+            "name": "Thunder",
+            "power": 110,
+            "type": "electric",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
@@ -1391,9 +1383,9 @@
             "priority": 0
           },
           {
-            "name": "Gust",
-            "power": 40,
-            "type": "flying",
+            "name": "Thunderbolt",
+            "power": 90,
+            "type": "electric",
             "damage_class": "special",
             "effect": "",
             "priority": 0
@@ -1423,14 +1415,6 @@
         "level": "53",
         "moves": [
           {
-            "name": "Venom Drench",
-            "power": null,
-            "type": "poison",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Sludge Bomb",
             "power": 90,
             "type": "poison",
@@ -1439,18 +1423,26 @@
             "priority": 0
           },
           {
-            "name": "Sludge Wave",
-            "power": 95,
-            "type": "poison",
+            "name": "Pain Split",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Dark Pulse",
+            "power": 80,
+            "type": "dark",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Belch",
-            "power": 120,
-            "type": "poison",
-            "damage_class": "special",
+            "name": "Memento",
+            "power": null,
+            "type": "dark",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -1479,34 +1471,34 @@
         "level": "52",
         "moves": [
           {
-            "name": "Supersonic",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Heat Wave",
-            "power": 95,
-            "type": "fire",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wish",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wing Attack",
+            "name": "Aerial Ace",
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Mirror Move",
+            "power": null,
+            "type": "flying",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Drill Peck",
+            "power": 80,
+            "type": "flying",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Agility",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -1588,10 +1580,18 @@
         "level": "51",
         "moves": [
           {
-            "name": "Incinerate",
-            "power": 60,
+            "name": "Fire Spin",
+            "power": 35,
             "type": "fire",
             "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Agility",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
@@ -1607,14 +1607,6 @@
             "name": "Flamethrower",
             "power": 90,
             "type": "fire",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Air Slash",
-            "power": 75,
-            "type": "flying",
             "damage_class": "special",
             "effect": "",
             "priority": 0
@@ -1645,10 +1637,18 @@
         "level": "53",
         "moves": [
           {
-            "name": "Crunch",
-            "power": 80,
-            "type": "dark",
-            "damage_class": "physical",
+            "name": "Hydro Pump",
+            "power": 110,
+            "type": "water",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Air Slash",
+            "power": 75,
+            "type": "flying",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
@@ -1657,14 +1657,6 @@
             "power": null,
             "type": "water",
             "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Hurricane",
-            "power": 110,
-            "type": "flying",
-            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
@@ -1702,25 +1694,9 @@
         "level": "53",
         "moves": [
           {
-            "name": "Roar",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": -6
-          },
-          {
-            "name": "Take Down",
-            "power": 90,
-            "type": "normal",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Thunder Fang",
-            "power": 65,
-            "type": "electric",
+            "name": "Blaze Kick",
+            "power": 85,
+            "type": "fire",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
@@ -1732,6 +1708,22 @@
             "damage_class": "physical",
             "effect": "",
             "priority": 2
+          },
+          {
+            "name": "Slash",
+            "power": 70,
+            "type": "normal",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Iron Tail",
+            "power": 100,
+            "type": "steel",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
           }
         ],
         "sprite": "singesha",
@@ -1743,7 +1735,7 @@
         "level": "54",
         "moves": [
           {
-            "name": "Telekinesis",
+            "name": "Trick",
             "power": null,
             "type": "psychic",
             "damage_class": "status",
@@ -1751,26 +1743,26 @@
             "priority": 0
           },
           {
-            "name": "Psychic",
-            "power": 90,
-            "type": "psychic",
+            "name": "Foresight",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Shadow Ball",
+            "power": 80,
+            "type": "ghost",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Role Play",
-            "power": null,
-            "type": "psychic",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Trick",
-            "power": null,
-            "type": "psychic",
-            "damage_class": "status",
+            "name": "Energy Ball",
+            "power": 90,
+            "type": "grass",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -1800,23 +1792,15 @@
         "level": "56",
         "moves": [
           {
-            "name": "Supersonic",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Heat Wave",
-            "power": 95,
-            "type": "fire",
+            "name": "Sludge Bomb",
+            "power": 90,
+            "type": "poison",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Wish",
+            "name": "Growth",
             "power": null,
             "type": "normal",
             "damage_class": "status",
@@ -1824,10 +1808,18 @@
             "priority": 0
           },
           {
-            "name": "Wing Attack",
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
+            "name": "Giga Drain",
+            "power": 75,
+            "type": "grass",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Synthesis",
+            "power": null,
+            "type": "grass",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -1865,34 +1857,34 @@
         "level": "56",
         "moves": [
           {
-            "name": "Soak",
+            "name": "Cross Chop",
+            "power": 100,
+            "type": "fighting",
+            "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Swagger",
             "power": null,
-            "type": "water",
+            "type": "normal",
             "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Fury Swipes",
-            "power": 18,
+            "name": "Screech",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Thrash",
+            "power": 120,
             "type": "normal",
             "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Zen Headbutt",
-            "power": 80,
-            "type": "psychic",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Amnesia",
-            "power": null,
-            "type": "psychic",
-            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -1922,22 +1914,6 @@
         "level": "57",
         "moves": [
           {
-            "name": "Light Screen",
-            "power": null,
-            "type": "psychic",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Gyro Ball",
-            "power": null,
-            "type": "steel",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Swift",
             "power": 60,
             "type": "normal",
@@ -1952,6 +1928,22 @@
             "damage_class": "physical",
             "effect": "",
             "priority": 0
+          },
+          {
+            "name": "Hyper Voice",
+            "power": 90,
+            "type": "normal",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Mirror Coat",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "special",
+            "effect": "",
+            "priority": -5
           }
         ],
         "ability": {
@@ -2023,34 +2015,34 @@
         "level": "56",
         "moves": [
           {
-            "name": "Synchronoise",
-            "power": 120,
-            "type": "psychic",
-            "damage_class": "special",
+            "name": "Guillotine",
+            "power": null,
+            "type": "normal",
+            "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Psych Up",
+            "name": "Protect",
             "power": null,
             "type": "normal",
             "damage_class": "status",
             "effect": "",
-            "priority": 0
+            "priority": 4
           },
           {
-            "name": "Swagger",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
+            "name": "Crabhammer",
+            "power": 100,
+            "type": "water",
+            "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Nasty Plot",
+            "name": "Flail",
             "power": null,
-            "type": "dark",
-            "damage_class": "status",
+            "type": "normal",
+            "damage_class": "physical",
             "effect": "",
             "priority": 0
           }
@@ -2086,34 +2078,34 @@
         "level": "63",
         "moves": [
           {
-            "name": "Supersonic",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Heat Wave",
-            "power": 95,
-            "type": "fire",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wish",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Wing Attack",
-            "power": 60,
-            "type": "flying",
+            "name": "Poison Sting",
+            "power": 15,
+            "type": "poison",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "String Shot",
+            "power": null,
+            "type": "bug",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Safeguard",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Air Slash",
+            "power": 75,
+            "type": "flying",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -2166,34 +2158,34 @@
         "level": "64",
         "moves": [
           {
-            "name": "Leer",
-            "power": null,
+            "name": "Tri Attack",
+            "power": 80,
             "type": "normal",
-            "damage_class": "status",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Last Resort",
-            "power": 140,
-            "type": "normal",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Flamethrower",
-            "power": 90,
-            "type": "fire",
             "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Scary Face",
+            "name": "Recycle",
             "power": null,
             "type": "normal",
             "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Zap Cannon",
+            "power": 120,
+            "type": "electric",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Psychic",
+            "power": 90,
+            "type": "psychic",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -2222,34 +2214,34 @@
         "level": "64",
         "moves": [
           {
-            "name": "Fury Attack",
-            "power": 15,
+            "name": "Headbutt",
+            "power": 70,
             "type": "normal",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Bounce",
-            "power": 85,
-            "type": "flying",
-            "damage_class": "physical",
+            "name": "Amnesia",
+            "power": null,
+            "type": "psychic",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Flare Blitz",
-            "power": 120,
-            "type": "fire",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Fire Blast",
-            "power": 110,
-            "type": "fire",
+            "name": "Psychic",
+            "power": 90,
+            "type": "psychic",
             "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Psych Up",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -2332,15 +2324,7 @@
         "level": "66",
         "moves": [
           {
-            "name": "Fake Out",
-            "power": 40,
-            "type": "normal",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 3
-          },
-          {
-            "name": "Captivate",
+            "name": "Screech",
             "power": null,
             "type": "normal",
             "damage_class": "status",
@@ -2348,18 +2332,26 @@
             "priority": 0
           },
           {
-            "name": "Night Slash",
-            "power": 70,
-            "type": "dark",
+            "name": "Psych Up",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Fury Swipes",
+            "power": 18,
+            "type": "normal",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Swagger",
-            "power": null,
-            "type": "normal",
-            "damage_class": "status",
+            "name": "Hydro Pump",
+            "power": 110,
+            "type": "water",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -2389,14 +2381,6 @@
         "level": "66",
         "moves": [
           {
-            "name": "Mud Bomb",
-            "power": 65,
-            "type": "ground",
-            "damage_class": "special",
-            "effect": "",
-            "priority": 0
-          },
-          {
             "name": "Slash",
             "power": 70,
             "type": "normal",
@@ -2405,18 +2389,26 @@
             "priority": 0
           },
           {
-            "name": "Earthquake",
-            "power": 100,
-            "type": "ground",
+            "name": "Crunch",
+            "power": 80,
+            "type": "dark",
             "damage_class": "physical",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Fissure",
-            "power": null,
-            "type": "ground",
+            "name": "Fake Out",
+            "power": 40,
+            "type": "normal",
             "damage_class": "physical",
+            "effect": "",
+            "priority": 3
+          },
+          {
+            "name": "Swagger",
+            "power": null,
+            "type": "normal",
+            "damage_class": "status",
             "effect": "",
             "priority": 0
           }
@@ -2446,34 +2438,34 @@
         "level": "67",
         "moves": [
           {
-            "name": "Crunch",
-            "power": 80,
-            "type": "dark",
-            "damage_class": "physical",
+            "name": "Psychic",
+            "power": 90,
+            "type": "psychic",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           },
           {
-            "name": "Stone Edge",
-            "power": 100,
-            "type": "rock",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Double-Edge",
-            "power": 120,
-            "type": "normal",
-            "damage_class": "physical",
-            "effect": "",
-            "priority": 0
-          },
-          {
-            "name": "Magnet Rise",
+            "name": "Psych Up",
             "power": null,
-            "type": "electric",
+            "type": "normal",
             "damage_class": "status",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Shadow Ball",
+            "power": 80,
+            "type": "ghost",
+            "damage_class": "special",
+            "effect": "",
+            "priority": 0
+          },
+          {
+            "name": "Future Sight",
+            "power": 120,
+            "type": "psychic",
+            "damage_class": "special",
             "effect": "",
             "priority": 0
           }
@@ -2987,7 +2979,8 @@
           }
         ],
         "sprite": "missingno-steel",
-        "moveSource": "Custom"
+        "moveSource": "Custom",
+        "icon": "kangaskhan"
       },
       {
         "name": "nessea",
@@ -3278,7 +3271,7 @@
           "spd": 80,
           "spe": 80
         },
-        "icon": "primeape",
+        "icon": "annihilape",
         "moveSource": "Custom"
       },
       {
@@ -3319,7 +3312,8 @@
           }
         ],
         "sprite": "missingno-rock",
-        "moveSource": "Custom"
+        "moveSource": "Custom",
+        "icon": "kangaskhan"
       },
       {
         "name": "machitan",
@@ -3651,7 +3645,8 @@
           }
         ],
         "sprite": "missingno-ghost",
-        "moveSource": "Custom"
+        "moveSource": "Custom",
+        "icon": "kangaskhan"
       },
       {
         "name": "grimm",
@@ -3983,7 +3978,8 @@
           }
         ],
         "sprite": "missingno-flying",
-        "moveSource": "Custom"
+        "moveSource": "Custom",
+        "icon": "kangaskhan"
       },
       {
         "name": "dragontale",
