@@ -85,7 +85,7 @@ const resolveTopEvolution = (alias, seen = new Set()) => {
 const pokemonIconByKey = BasePokemon.reduce((acc, pokemon) => {
   for (const key of [pokemon.alias, pokemon.name, pokemon.label]) {
     if (!key) continue
-    acc[normalise(key)] = pokemon.alias
+    acc[normalise(key)] = pokemon.evoline || pokemon.alias
   }
   return acc
 }, {})
@@ -106,4 +106,3 @@ export const resolvePokemonIconName = (name = '') => {
   const key = normalise(name)
   return fakemonIconByKey[key] || pokemonIconByKey[key] || name
 }
-
