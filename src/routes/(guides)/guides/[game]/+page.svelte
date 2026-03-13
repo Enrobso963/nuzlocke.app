@@ -9,9 +9,36 @@
 
   import { Hero, Links, Summary, Bosses, Aside } from '$c/Guide'
   import { faq } from '$c/Guide/schemas'
+  import { normalise } from '$utils/string'
+
+  const pokemonLookup = data.pokemon.reduce((acc, pokemon) => {
+    const pairs = [
+      pokemon.alias,
+      pokemon.name,
+      pokemon.sprite
+    ].filter(Boolean)
+
+    for (const key of pairs) {
+      acc[normalise(key)] = pokemon
+    }
+
+    return acc
+  }, {})
 
   setContext('game', {
-    getLeague: (_, starter) => data.data[starter]
+    getLeague: (_, starter) => data.data[starter],
+    getPkmns: (ids = []) =>
+      Promise.resolve(
+        ids.reduce((acc, id) => {
+          const found = pokemonLookup[normalise(id)]
+
+          if (!found) return acc
+          return {
+            ...acc,
+            [found.alias]: found
+          }
+        }, {})
+      )
   })
   setContext('simple-modal', {
     open: false

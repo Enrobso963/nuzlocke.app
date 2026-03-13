@@ -1,6 +1,7 @@
 import { Expanded as games } from '$lib/data/games.js'
 import patches from '$lib/data/patches.json'
 import routeData from '$lib/data/routes.json'
+import { resolvePokemonIconName } from '$lib/utils/pokemon-evolved'
 
 import { LegacyTypeMap } from '$lib/data/legacy'
 import Pokemon, { filterdata, sumObj } from '../../pokemon.json/_data.js'
@@ -144,6 +145,8 @@ const patchPokemonEvolved = (gameId, pokemon = {}, fakemon = {}) => {
         alias,
         {
           ...current,
+          sprite: current.alias || alias,
+          icon: current.icon || resolvePokemonIconName(alias),
           canEncounter: current.canEncounter ?? searchable.has(alias),
           evos: unique([...(current.evos || []), ...(evoMap[alias] || [])]),
           evoline: resolveLine(alias)
