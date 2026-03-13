@@ -9,7 +9,7 @@
 
   const sprite = (p, status) => {
     return createImgUrl(
-      { imgId: p?.original?.sprite || p?.imgId, imgUrl: p.imgUrl },
+      { imgId: p?.sprite || p?.imgId, imgUrl: p.imgUrl },
       { ext: 'png', shiny: status === 6 }
     )
   }
